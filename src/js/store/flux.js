@@ -62,6 +62,18 @@ const getState = ({ getStore, getActions, setStore }) => {
 					})
 			})
 		}
+		// changeContact: async (contactData) => {
+		// 	const response = await fetch (`https://playground.4geeks.com/apis/fake/contact/${contactData.id}`,{
+		// 		method: 'PUT',
+		// 		headers:{
+		// 			'Content-type':'application/json',
+		// 		},
+		// 		body:JSON.stringify({
+		// 			...contactData
+		// 		})
+		// 	}
+		// 	)
+		// }
 			}
 		}
 	};

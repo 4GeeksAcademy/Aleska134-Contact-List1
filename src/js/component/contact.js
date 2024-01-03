@@ -79,8 +79,8 @@ const Contact = ({item,index}) =>{
         <div className="container-fluid mx-12">
             <div className="row mx-5 border border-dark border-opacity-25">
                 {/* <div className="col-1"></div>  onClick={deleteContact(item.id)}*/}
-                <div className="col-3 ms-5 rounded-circle"><img src={rigoImage} className="rounded-5" style={{height:"auto"}}/></div>
-                <div className="col-6">
+                <div className="col-md-5 ms-1 rounded-circle"><img src={rigoImage} className="rounded-5 img-fluid d-inline" style={{height:"auto"}}/></div>
+                <div className="col-md-6 d-inline">
                     <div className="row d-flex">
                         <div className="col-md-8 py-3 flex-grow-1">Name:{' '}{item.full_name}</div>
                         <div className="col-6 col-md-2 my-2 ms-5 me-0 text-end d-flex justify-content-end">
