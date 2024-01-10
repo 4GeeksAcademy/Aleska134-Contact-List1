@@ -11,18 +11,6 @@ const Demo = () => {
 	const [emailAddress, setEmailAddress] = useState("");
 	const [phoneNumber, setPhoneNumber] = useState("");
 	const [address, setaddress] = useState("");
-	// const { formData, updateFormData , sendDataToAPI } = useFormContext();
-	// console.log(formData)
-	// 	const handleSubmit = (e) => {
-	// 		e.preventDefault();
-	// 		console.log(e.target.name)
-
-	// 	}
-	// 	const handleInputChange = (e) => {
-	// 		updateFormData({[e.target.name]:e.target.value});
-	// 	};
-
-		// console.log(store.contacts);
 
 		const handleSubmit = async (event) => {
 			event.preventDefault(); // Prevent default form submission behavior
@@ -48,7 +36,7 @@ const Demo = () => {
 		<div className="container">
 			<h1>Add new contact</h1>
 			<div>
-				{/* onSubmit={handleSubmit} onChange={handleInputChange} */}
+				
 				<form method="GET" onSubmit={handleSubmit}>
 					<div className="mb-3">
 						<label className="form-label">Full Name:</label>

@@ -47,7 +47,7 @@ export const Single = props => {
 						<label className="form-label">Full Name:</label>
 						<input type="text" onChange={(e)=>{setContact({...contact, full_name:e.target.value})}} value={contact.full_name}className="form-control" name="full_name" />
 					</div>
-					<button onClick={()=>console.log(contact)}>click me</button>
+					
 					<div className="mb-3">
 						<label className="form-label">Email address</label>
 						<input type="email" onChange={(e)=>{setContact({...contact, email:e.target.value})}} value={contact.email}className="form-control" name="email"/>	

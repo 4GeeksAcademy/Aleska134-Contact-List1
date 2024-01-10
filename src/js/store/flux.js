@@ -1,18 +1,6 @@
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
-			demo: [
-				{
-					title: "FIRST",
-					background: "white",
-					initial: "white"
-				},
-				{
-					title: "SECOND",
-					background: "white",
-					initial: "white"
-				}
-			],
 			contacts : [
 				{
 					full_name:'',
@@ -62,18 +50,6 @@ const getState = ({ getStore, getActions, setStore }) => {
 					})
 			})
 		}
-		// changeContact: async (contactData) => {
-		// 	const response = await fetch (`https://playground.4geeks.com/apis/fake/contact/${contactData.id}`,{
-		// 		method: 'PUT',
-		// 		headers:{
-		// 			'Content-type':'application/json',
-		// 		},
-		// 		body:JSON.stringify({
-		// 			...contactData
-		// 		})
-		// 	}
-		// 	)
-		// }
 			}
 		}
 	};
