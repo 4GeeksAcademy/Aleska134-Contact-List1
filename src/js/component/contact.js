@@ -95,10 +95,13 @@ const Contact = ({item,index}) =>{
                         <p>Address:{' '}{item.address}</p>
                         <p>Phone:{' '}{item.phone}</p>
                         <p>Email:{' '}{item.email}</p>
+                                
                     </div>
                 </div>
             </div>
+            
         </div>
+        
     )
 }
 
